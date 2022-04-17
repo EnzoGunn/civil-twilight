@@ -1,4 +1,4 @@
-var cacheName = 'civil-twilight-alarm';
+var cacheName = 'twilight-alarm';
 var filesToCache = [
     '/',
     '/index.html',
