@@ -1,0 +1,40 @@
+{
+    "name": "Civil-Twilight Alarm",
+    "short_name": "Civil-Twilight",
+    "icons": [
+        {
+            "src": "images/civil-twilight-icon-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "images/civil-twilight-icon-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "images/civil-twilight-icon-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "images/civil-twilight-icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/civil-twilight-icon-256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "images/civil-twilight-icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }],
+    "lang": "en-CA",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#110021",
+    "theme_color": "#110021"
+}
