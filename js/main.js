@@ -2,7 +2,7 @@ window.onload = () => {
     'use strict';
 
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js').then(function(registration) {
+        navigator.serviceWorker.register('/civil-twilight/sw.js').then(function(registration) {
             console.log('Service worker registration succeeded:', registration);
         }, function(error) {
             console.log('Service worker registration failed:', error);
@@ -21,7 +21,7 @@ function displayNotification() {
             registrations.forEach(function(v) { console.log('service worker: ' + v) });
         });
 
-        navigator.serviceWorker.getRegistration('/sw.js').then(function(reg) {
+        navigator.serviceWorker.getRegistration('/civil-twilight/sw.js').then(function(reg) {
             
             if (reg === null) {
                 console.log('is null 5');
