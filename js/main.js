@@ -3,9 +3,8 @@ window.onload = () => {
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('./sw.js');
+        alert('window loaded for sure');
     }
-
-    alert('window loaded');
 }
 
 Notification.requestPermission(function(status) {
