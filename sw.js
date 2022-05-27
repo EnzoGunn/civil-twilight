@@ -1,5 +1,6 @@
 var cacheName = 'twilight-alarm';
 var filesToCache = [
+    '/',
     '/civil-twilight/',
     '/civil-twilight/index.html',
     '/civil-twilight/css/style.css',
