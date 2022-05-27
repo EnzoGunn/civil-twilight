@@ -13,7 +13,17 @@ Notification.requestPermission(function(status) {
 function displayNotification() {
     if (Notification.permission == 'granted') {
         navigator.serviceWorker.getRegistration().then(function(reg) {
-            console.log('Hello World!');
+            
+            if (reg === null) {
+                console.log('is null');
+            }
+            else if (reg === undefined) {
+                console.log('is undefined');
+            }
+            else {
+                console.log('Hello World!');
+            }
+            
             //reg.showNotification('Hello world!');
         });
     }
