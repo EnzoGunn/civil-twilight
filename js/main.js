@@ -2,7 +2,7 @@ window.onload = () => {
     'use strict';
 
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js');
+        navigator.serviceWorker.register('/sw.js');
         alert('window loaded for sure');
     }
 }
@@ -18,7 +18,7 @@ function displayNotification() {
             registrations.forEach(function(v) { console.log('service worker: ' + v) });
         });
 
-        navigator.serviceWorker.getRegistration('./sw.js').then(function(reg) {
+        navigator.serviceWorker.getRegistration('/sw.js').then(function(reg) {
             
             if (reg === null) {
                 console.log('is null 5');
