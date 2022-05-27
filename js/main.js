@@ -12,7 +12,7 @@ Notification.requestPermission(function(status) {
 
 function displayNotification() {
     if (Notification.permission == 'granted') {
-        navigator.serviceWorker.getRegistration().then(function(reg) {
+        navigator.serviceWorker.getRegistration('./sw.js').then(function(reg) {
             
             if (reg === null) {
                 console.log('is null');
