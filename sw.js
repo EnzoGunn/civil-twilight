@@ -1,9 +1,9 @@
 var cacheName = 'twilight-alarm';
 var filesToCache = [
-    '/',
-    '/index.html',
-    '/css/style.css',
-    '/js/main.js'
+    '/civil-twilight/',
+    '/civil-twilight/index.html',
+    '/civil-twilight/css/style.css',
+    '/civil-twilight/js/main.js'
 ];
 
 /* Start the service worker and cache all of the app's content */

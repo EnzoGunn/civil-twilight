@@ -21,19 +21,19 @@ function displayNotification() {
             registrations.forEach(function(v) { console.log('service worker: ' + v) });
         });
 
-        navigator.serviceWorker.getRegistration('/civil-twilight/sw.js').then(function(reg) {
+        navigator.serviceWorker.getRegistration('/civil-twilight/sw.js').then(function(worker) {
             
-            if (reg === null) {
+            if (worker === null) {
                 console.log('is null 5');
             }
-            else if (reg === undefined) {
+            else if (worker === undefined) {
                 console.log('is undefined 5');
             }
             else {
                 console.log('Hello World! 5');
             }
             
-            //reg.showNotification('Hello world!');
+            //worker.showNotification('Hello world!');
         });
     }
 }
