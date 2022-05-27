@@ -4,6 +4,8 @@ window.onload = () => {
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('./sw.js');
     }
+
+    alert('window loaded');
 }
 
 Notification.requestPermission(function(status) {
@@ -20,13 +22,13 @@ function displayNotification() {
         navigator.serviceWorker.getRegistration('./sw.js').then(function(reg) {
             
             if (reg === null) {
-                console.log('is null 4');
+                console.log('is null 5');
             }
             else if (reg === undefined) {
-                console.log('is undefined 4');
+                console.log('is undefined 5');
             }
             else {
-                console.log('Hello World! 4');
+                console.log('Hello World! 5');
             }
             
             //reg.showNotification('Hello world!');
