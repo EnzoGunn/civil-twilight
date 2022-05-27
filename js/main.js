@@ -20,13 +20,13 @@ function displayNotification() {
         navigator.serviceWorker.getRegistration('./sw.js').then(function(reg) {
             
             if (reg === null) {
-                console.log('is null 3');
+                console.log('is null 4');
             }
             else if (reg === undefined) {
-                console.log('is undefined 3');
+                console.log('is undefined 4');
             }
             else {
-                console.log('Hello World! 3');
+                console.log('Hello World! 4');
             }
             
             //reg.showNotification('Hello world!');
