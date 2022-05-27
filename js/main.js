@@ -21,7 +21,7 @@ function displayNotification() {
                 console.log('is undefined');
             }
             else {
-                console.log('Hello World!');
+                console.log('Hello World! 2');
             }
             
             //reg.showNotification('Hello world!');
