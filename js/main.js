@@ -12,6 +12,11 @@ Notification.requestPermission(function(status) {
 
 function displayNotification() {
     if (Notification.permission == 'granted') {
+        
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            registrations.forEach(function(v) { console.log('service worker: ' + v) });
+        });
+
         navigator.serviceWorker.getRegistration('./sw.js').then(function(reg) {
             
             if (reg === null) {
