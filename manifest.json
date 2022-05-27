@@ -3,38 +3,38 @@
     "short_name": "Twilight",
     "icons": [
         {
-            "src": "images/civil-twilight-icon-128.png",
+            "src": "civil-twilight/images/civil-twilight-icon-128.png",
             "sizes": "128x128",
             "type": "image/png"
         },
         {
-            "src": "images/civil-twilight-icon-144.png",
+            "src": "civil-twilight/images/civil-twilight-icon-144.png",
             "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "images/civil-twilight-icon-152.png",
+            "src": "civil-twilight/images/civil-twilight-icon-152.png",
             "sizes": "152x152",
             "type": "image/png"
         },
         {
-            "src": "images/civil-twilight-icon-192.png",
+            "src": "civil-twilight/images/civil-twilight-icon-192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "images/civil-twilight-icon-256.png",
+            "src": "civil-twilight/images/civil-twilight-icon-256.png",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "images/civil-twilight-icon-512.png",
+            "src": "civil-twilight/images/civil-twilight-icon-512.png",
             "sizes": "512x512",
             "type": "image/png"
         }],
     "lang": "en-CA",
-    "scope": "/index.html",
-    "start_url": "/index.html",
+    "scope": "/civil-twilight/index.html",
+    "start_url": "/civil-twilight/index.html",
     "display": "standalone",
     "background_color": "#1CB2B0",
     "theme_color": "#1CB2B0"
