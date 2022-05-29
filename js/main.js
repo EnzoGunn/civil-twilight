@@ -13,9 +13,11 @@ if (Notification.permission == 'default') {
 
 function displayNotification() {
     if (Notification.permission == 'granted') {
-        
-        navigator.serviceWorker.getRegistration('/civil-twilight/sw.js').then(function(worker) {
-            worker.showNotification('Hello world!');
+        navigator.serviceWorker.getRegistration('/civil-twilight/sw.js').then(function(reg) {
+            reg.showNotification('Hello world!');
         });
+    }
+    else {
+        Notification.requestPermission();
     }
 }
