@@ -17,7 +17,4 @@ function displayNotification() {
             reg.showNotification('Hello world!');
         });
     }
-    else {
-        Notification.requestPermission();
-    }
 }
