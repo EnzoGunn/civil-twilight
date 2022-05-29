@@ -36,6 +36,6 @@
     "scope": "/civil-twilight/index.html",
     "start_url": "/civil-twilight/index.html",
     "display": "standalone",
-    "background_color": "#1CB2B0",
-    "theme_color": "#1CB2B0"
+    "background_color": "red",
+    "theme_color": "red"
 }
