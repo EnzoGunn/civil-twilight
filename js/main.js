@@ -24,7 +24,7 @@ function displayNotification() {
         navigator.serviceWorker.getRegistration('/civil-twilight/sw.js').then(function(reg) {
             var options = {
                 body: 'Prayer for [FILL] has entered',
-                icon: '/civil-twilight/images/avatar-24.png',
+                icon: '/civil-twilight/images/avatar-60.png',
                 vibrate: [12, 4, 12, 4, 12]
             };
             reg.showNotification('Prayer Time', options);
